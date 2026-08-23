@@ -63,3 +63,15 @@
   padding-top: 45px !important;
   margin-top: 0 !important;
 }
+/* Fix gap created by moving the Ganpati circle upward */
+.hero-art {
+  height: 0;
+}
+
+.hero {
+  min-height: 680px;
+}
+
+.intro.section {
+  padding-top: 45px !important;
+}

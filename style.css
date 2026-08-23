@@ -14,10 +14,17 @@
   display: block;
   margin: auto;
 }
+.footer-brand img {
+  width: 130px;
+  height: auto;
+  display: block;
+}
+
 .footer-bappa {
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
+  transform: translateX(-20px);
   white-space: nowrap;
 }
 

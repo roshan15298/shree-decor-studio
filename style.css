@@ -48,3 +48,14 @@
 .intro.section {
   padding-top: 20px;
 }
+/* FORCE smaller gap between first and second section */
+.hero {
+  min-height: 680px;
+  padding-bottom: 0;
+}
+
+.intro.section {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+

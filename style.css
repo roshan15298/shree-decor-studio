@@ -60,6 +60,6 @@
 }
 /* FINAL - controlled space between hero and OUR COLLECTION */
 .intro.section {
-  padding-top: 200px !important;
+  padding-top: -100px !important;
   margin-top: 0 !important;
 }

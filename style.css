@@ -7,3 +7,10 @@
   height: auto;
   display: block;
 }
+.mandala img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}

@@ -39,3 +39,12 @@
 .mandala {
   transform: translate(-35px, -480px);
 }
+/* Final spacing adjustment */
+.hero {
+  min-height: 300px;
+  padding-bottom: 10px;
+}
+
+.intro.section {
+  padding-top: 20px;
+}

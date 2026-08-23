@@ -340,3 +340,45 @@
     height: 330px !important;
   }
 }
+/* FINAL VIDEO CENTERING FIX */
+
+.bappa-video {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.bappa-video-content {
+  position: relative !important;
+  z-index: 5 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bappa-video-frame {
+  position: relative !important;
+  width: min(850px, 88vw) !important;
+  height: 470px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.bappa-video-main {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+  object-fit: cover !important;
+}

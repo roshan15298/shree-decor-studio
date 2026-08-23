@@ -75,3 +75,19 @@
 .intro.section {
   padding-top: 45px !important;
 }
+.bappa-video {
+  padding: 50px 8vw;
+  background: var(--cream);
+  text-align: center;
+}
+
+.bappa-video video {
+  width: 320px;
+  height: auto;
+  max-height: 570px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px #60452b20;
+}

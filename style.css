@@ -263,3 +263,80 @@
     height: 380px !important;
   }
 }
+/* ==========================================
+   FINAL BAPPA VIDEO FIX
+   ========================================== */
+
+.bappa-video {
+  position: relative !important;
+  width: 100% !important;
+  height: 620px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #241711 !important;
+}
+
+/* BLURRED BACKGROUND */
+.bappa-video-bg {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 110% !important;
+  height: 110% !important;
+  transform: translate(-50%, -50%) scale(1.1) !important;
+  object-fit: cover !important;
+  filter: blur(30px) brightness(.55) !important;
+  opacity: .7 !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+/* DARK OVERLAY */
+.bappa-video-overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  background: rgba(35, 20, 13, .45) !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+/* MAIN VIDEO */
+.bappa-video-main {
+  position: relative !important;
+  z-index: 3 !important;
+  display: block !important;
+  width: min(850px, 88vw) !important;
+  height: 470px !important;
+  margin: 0 auto !important;
+  object-fit: cover !important;
+  border-radius: 18px !important;
+  border: 2px solid rgba(210,166,93,.75) !important;
+  box-shadow:
+    0 25px 70px rgba(0,0,0,.55),
+    0 0 50px rgba(189,93,33,.25) !important;
+}
+
+/* Make sure the video is actually centered */
+.bappa-video > .bappa-video-main {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+}
+
+/* MOBILE */
+@media(max-width:650px) {
+
+  .bappa-video {
+    height: 500px !important;
+  }
+
+  .bappa-video-main {
+    width: 92vw !important;
+    height: 330px !important;
+  }
+}

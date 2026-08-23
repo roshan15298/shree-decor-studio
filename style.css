@@ -206,3 +206,60 @@
     max-width: 88%;
   }
 }
+/* FINAL FIX — BAPPA VIDEO CENTRE */
+
+.bappa-video {
+  position: relative !important;
+  width: 100% !important;
+  height: 520px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  background: #2a1d16 !important;
+}
+
+.bappa-video-bg {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  filter: blur(25px) !important;
+  opacity: 0.45 !important;
+  transform: scale(1.1) !important;
+  z-index: 0 !important;
+}
+
+.bappa-video-overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  background: rgba(33, 24, 20, 0.45) !important;
+  z-index: 1 !important;
+}
+
+.bappa-video-main {
+  position: relative !important;
+  display: block !important;
+  width: auto !important;
+  height: 460px !important;
+  max-width: 90% !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;
+  z-index: 2 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35) !important;
+}
+
+@media (max-width: 650px) {
+  .bappa-video {
+    height: 430px !important;
+  }
+
+  .bappa-video-main {
+    height: 380px !important;
+  }
+}

@@ -14,3 +14,10 @@
   display: block;
   margin: auto;
 }
+.footer-bappa {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+

@@ -14,3 +14,25 @@
   display: block;
   margin: auto;
 }
+.mandala {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mandala img {
+  width: 62%;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+.mandala strong {
+  display: block;
+  margin-top: 8px;
+  font: 600 25px "Cormorant Garamond", serif;
+  color: #a87536;
+  white-space: nowrap;
+}

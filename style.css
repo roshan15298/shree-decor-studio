@@ -75,18 +75,20 @@
 .intro.section {
   padding-top: 45px !important;
 }
+/* BAPPA VIDEO - isolated styling */
 .bappa-video {
   width: 100%;
-  display: block;
-  text-align: center;
   padding: 30px 0;
+  text-align: center;
+  background: var(--cream);
 }
 
 .bappa-video video {
-  display: inline-block;
   width: 300px;
-  max-width: 90%;
   height: auto;
-  vertical-align: middle;
+  max-width: 90%;
+  display: inline-block;
+  vertical-align: top;
   border-radius: 14px;
+  box-shadow: 0 15px 40px #60452b20;
 }

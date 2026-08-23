@@ -27,4 +27,16 @@
   transform: translateX(-20px);
   white-space: nowrap;
 }
+.footer-brand img {
+  width: 130px;
+  height: auto;
+  display: block;
+}
 
+.footer-bappa {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  white-space: nowrap;
+  transform: translateX(-20px);
+}
